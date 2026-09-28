@@ -1,0 +1,6 @@
+{
+  "name": "Orchestration Control Plane - Schema & Contracts",
+  "description": "Control plane data model, schema integrity enforcement, and capability contracts for AI workforce orchestration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

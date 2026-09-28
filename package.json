@@ -1,0 +1,48 @@
+{
+  "name": "react-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist server.js",
+    "lint": "tsc --noEmit",
+    "test:schema": "tsx scripts/validate-schema.ts",
+    "test:stage2": "tsx scripts/validate-stage2.ts",
+    "test:stage3": "tsx scripts/validate-stage3.ts",
+    "test:stage4": "tsx scripts/validate-stage4.ts",
+    "test:stage5": "tsx scripts/validate-stage5.ts",
+    "test:stage6": "tsx scripts/validate-stage6.ts",
+    "test:stage7": "tsx scripts/validate-stage7.ts",
+    "test:stage8": "tsx scripts/validate-stage8.ts",
+    "test:stage9": "tsx scripts/validate-stage9.ts",
+    "test:tracker": "tsx scripts/validate-stage-tracker.ts",
+    "test": "tsx scripts/validate-schema.ts && tsx scripts/validate-stage2.ts && tsx scripts/validate-stage3.ts && tsx scripts/validate-stage4.ts && tsx scripts/validate-stage5.ts && tsx scripts/validate-stage6.ts && tsx scripts/validate-stage7.ts && tsx scripts/validate-stage8.ts && tsx scripts/validate-stage9.ts && tsx scripts/validate-stage-tracker.ts"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "@google/genai": "^2.4.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "vite": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.21.0",
+    "typescript": "^7.0.2",
+    "@types/express": "^4.17.21"
+  }
+}
